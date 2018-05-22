@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+	margin: 0;
+	background: #8C001A;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+
+.nav-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background: #DAA520;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	border: 2px solid #444;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	padding-top: 7%;
+}
+
+nav a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #000;
+}
+
